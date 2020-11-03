@@ -1,0 +1,60 @@
+*{
+	font-family:Arial;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.topo{
+	height: 50px;
+	background-color:#353535;
+}
+.topointerior{
+	width:1000px;
+	margin:auto;
+	color:#ffffff;
+}
+.logomarca{
+	float:left;
+	font-size:24px;
+	line-height:50px;
+}
+.menu{
+	float:right;
+	font-size:24px;
+}
+.menu ul,
+.menu li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu li{
+	float:left;
+	padding-left:10px;
+	padding-right:10px;	
+	line-height:50px;
+	font-size:14px;
+	cursor:pointer;
+}
+.menu li:hover{
+	background-color:#3480c1;
+}
+#degrade{
+	width: 500px;
+	height: 200px;
+	background-color:blue;
+	margin: auto;
+	margin-top: 100px;
+	text-align:center;
+	padding-top: 30px;
+	word-wrap:break-word;
+	transition:all 1s linear;
+	/*background:linear-gradient(-90deg,white, blue, green, red, yellow, black, #dddddd);
+	*/
+}
+#degrade:hover{
+	background-color: red;
+	width:1000px;
+	height: 300px;
+}

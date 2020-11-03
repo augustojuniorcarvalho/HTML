@@ -1,0 +1,35 @@
+.cor{
+	width: 100%;
+	height: 80%;
+	background-color:#ccc;
+	margin:auto;
+	
+	
+	
+
+}
+.azul{
+	background-color: blue;
+	width: 50%;
+	height:auto;
+	
+	margin: auto;
+}
+.verde{
+	
+	width: 50%;
+	margin: 0 auto;
+	height: 150px;
+	color: white;
+	background-color: green;
+	float: left;
+}
+.vermelha{
+	
+	width: 50%;
+	margin: 0 auto;
+	height: 150px;
+	color: white;
+	background-color: red;
+	float: left;
+}

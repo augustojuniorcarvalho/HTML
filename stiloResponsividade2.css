@@ -1,0 +1,39 @@
+body{
+	margin:0;
+}
+p{
+	padding:10px;
+	text-align:center;
+	font-family:verdana;
+	font-size:14px;
+}
+h1{
+	font-family:sans-serif;
+}
+h3{
+	padding-left:10px;
+	text-align:center;
+	font-family:arial;
+
+}
+.topo{
+	width:100%;
+	height:100px;
+	background-color:orange;
+	line-height:100px;
+	text-align:center;
+}
+.cidade{
+	float:left;
+	width:25%;
+}
+@media only screen and (min-width:500px) and (max-width:800px){
+.cidade{
+	width:50%;
+}
+@media only screen and (max-width:500px){
+.cidade{
+	width:100%;
+}
+}
+}
