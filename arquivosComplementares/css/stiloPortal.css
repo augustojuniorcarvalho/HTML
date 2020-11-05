@@ -329,6 +329,9 @@ font-family: verdana;
 	text-decoration: none;
 	color: black;
 }
+.menumobile{
+	display: none;
+}
 @media only screen and (min-width: 906px) and (max-width:1057px){
 	.topointerior,
 	.topo2interior,
@@ -405,7 +408,24 @@ font-family: verdana;
     display: none; 
  }
  	.menuinterior {
+ 		
+ 	}
+ 	.menumobile{
+ 		display: block;
+ 	}
+ 	.menu ul{
+ 		position: absolute;
+ 		background-color: red;
+ 		z-index:10;
  		display: none;
+ 	}
+ 	.menu li{
+ 		float: none;
+ 		height: auto;
+ 	}
+ 	.submenu{
+ 		position: static;
+ 		display: block;
  	}
  	
  	.rightside {

@@ -1,35 +1,47 @@
-.cor{
-	width: 100%;
-	height: 80%;
-	background-color:#ccc;
-	margin:auto;
-	
-	
-	
+.exemplo{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	color: black;
+	text-transform: uppercase;
+	cursor: pointer;
 
 }
-.azul{
+.exemplo1{
 	background-color: blue;
-	width: 50%;
-	height:auto;
-	
-	margin: auto;
+	position: absolute;
+	right: 0;
+	bottom: 0;
 }
-.verde{
-	
-	width: 50%;
-	margin: 0 auto;
-	height: 150px;
-	color: white;
-	background-color: green;
-	float: left;
-}
-.vermelha{
-	
-	width: 50%;
-	margin: 0 auto;
-	height: 150px;
-	color: white;
+.exemplo2{
 	background-color: red;
-	float: left;
+	position: absolute;
+	right: 50%;
+	top:0;
+	transform:translate(50%);
+	
+}
+.exemplo3{
+	background-color: black;
+	position:;
+	left: 0;
+	top:0;
+	position: absolute;
+
+}
+.exemplo-internal{
+	right: 0;
+	top: 50;
+	margin-right: 50px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #ccc;
+	position: absolute;
+	
+	
+	
+	
 }
