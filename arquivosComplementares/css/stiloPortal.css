@@ -116,7 +116,8 @@ body{
 }
 
 .menu li:hover{
-	background-color: 822020;
+	background-color:#333;
+	opacity: 80%;
 }
 .menu a{
 	color:white;
@@ -124,7 +125,8 @@ body{
 }
 .submenu{
 	width:150px;
-	background-color:red;
+	background-color:#333;
+	opacity: 80%;
 	position:absolute;
 	display:none;
 }
@@ -244,6 +246,8 @@ font-family: verdana;
 	background-size: cover;
 }
 .slideinfo{
+	background-color: #333;
+	opacity: 40%;
 	height: 70px;
 	/*background-image:url('../imagens/info.jpeg');*/
 	background-size: auto 70px;
