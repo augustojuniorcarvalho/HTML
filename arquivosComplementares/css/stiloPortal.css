@@ -114,6 +114,7 @@ body{
 	padding-left: 8px;
 	padding-right:8px;
 }
+
 .menu li:hover{
 	background-color: 822020;
 }
@@ -127,6 +128,7 @@ body{
 	position:absolute;
 	display:none;
 }
+
 .menu li:hover .submenu{
 	display:block;
 }
@@ -265,7 +267,7 @@ font-family: verdana;
 	margin-left: 5px;
 }
 .bolinha{
-	background-color:blue;
+	background-color:#ccc;
 	width: 20px;
 	height: 20px;
 	float: left;
@@ -416,7 +418,8 @@ font-family: verdana;
    	}
  	.menu ul{
  		position: absolute;
- 		background-color: red;
+ 		background-color: #333;
+ 		opacity: 60%;
  		z-index:10;
  		display: none;
  	}
@@ -454,9 +457,16 @@ font-family: verdana;
     font-size: 25px;
     width: 290px;
     }
-    .entQuemsomos{
-    	background-color: blue;
+    .menuinterior .submenu{
+    	display: none;
     }
+    .menu li:hover .submenu{
+	display:none;
+   }
+   .menu li:hover{
+	background-color:green;
+}
+    
 }
 
 
