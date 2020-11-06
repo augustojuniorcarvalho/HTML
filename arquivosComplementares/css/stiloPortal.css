@@ -407,9 +407,13 @@ font-family: verdana;
     width: 530px;
     display: none; 
  }
+    .logo {
+    	height: 90px;
+    }
  	
  	.menumobile{
  		display: block;
+ 		
  	}
  	.menu ul{
  		position: absolute;
