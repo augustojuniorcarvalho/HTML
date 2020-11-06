@@ -1,25 +1,17 @@
-.exemplo{
-	width: 200px;
-	height: 200px;
-	line-height: 200px;
-	text-align: center;
-	color: black;
-	text-transform: uppercase;
-	cursor: pointer;
 
-}
 .exemplo1{
+	width: 320px;
+	height: 40px;
+	text-align:left;
 	background-color: blue;
-	position: absolute;
-	right: 0;
-	bottom: 0;
+	
 }
 .exemplo2{
 	background-color: red;
 	position: absolute;
-	right: 50%;
+	right:0;
 	top:0;
-	transform:translate(50%);
+	
 	
 }
 .exemplo3{
@@ -32,7 +24,7 @@
 }
 .exemplo-internal{
 	right: 0;
-	top: 50;
+	top: 0;
 	margin-right: 50px;
 	width: 100px;
 	height: 100px;
