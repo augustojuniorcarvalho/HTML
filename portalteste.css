@@ -1,39 +1,29 @@
-
-.exemplo1{
-	width: 320px;
-	height: 40px;
-	text-align:left;
+body{
 	background-color: blue;
-	
 }
-.exemplo2{
-	background-color: red;
-	position: absolute;
-	right:0;
-	top:0;
+.principal{
 	
-	
-}
-.exemplo3{
-	background-color: black;
-	position:;
-	left: 0;
-	top:0;
-	position: absolute;
-
-}
-.exemplo-internal{
-	right: 0;
-	top: 0;
-	margin-right: 50px;
-	width: 100px;
+	width: 400px;
 	height: 100px;
-	line-height: 100px;
+	margin: auto;
 	text-align: center;
-	background-color: #ccc;
-	position: absolute;
+	line-height: 100px;
+	margin-top: 200px;
+}
+section .principal a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 5px;
 	
-	
-	
-	
+}
+h1{
+	margin: auto;
+	text-align: center;
+	line-height: 300px;
+	width: 500px;
+	height: 300px;
+	background-color: green;
+
 }
